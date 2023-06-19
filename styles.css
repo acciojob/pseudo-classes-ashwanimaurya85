@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+body{
+	background-color: skyblue;
+}
+div{
+background-color: black;	
+	color:white;
+}
+p::after{
+	content:"consequuntur asperiores sequi est nemo corporis nulla eveniet iure atque incidunt explicabo nostrum!"
+
+
+}
+p::after{
+	color:red;
+}
+li:nth-child(4n+1){
+	background-color: white;
+}
+li:nth-child(3){
+	background-color: pink;
+}
+li:nth-child(even){
+	background-color: gray;
+}
