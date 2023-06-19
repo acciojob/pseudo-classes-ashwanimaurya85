@@ -2,11 +2,11 @@
 body{
 	background-color: skyblue;
 }
-#p2{
+h3{
 background-color: black;	
 	color:white;
 }
-#p1::after{
+p::after{
 	content:"consequuntur asperiores sequi est nemo corporis nulla eveniet iure atque incidunt explicabo nostrum!"
 
 
@@ -16,10 +16,16 @@ p::after{
 }
 li:nth-child(4n+1){
 	background-color: white;
+	width:750px;
+	height:30px;
 }
 li:nth-child(3){
 	background-color: pink;
+	height:30px;
+	width:750px;
 }
 li:nth-child(even){
 	background-color: gray;
+	height:30px;
+	width:750px;
 }
