@@ -16,16 +16,16 @@ p::after{
 }
 li:nth-child(4n+1){
 	background-color: white;
-	width:750px;
+	width:500px;
 	height:30px;
 }
 li:nth-child(3){
 	background-color: pink;
 	height:30px;
-	width:750px;
+	width:500px;
 }
 li:nth-child(even){
 	background-color: gray;
 	height:30px;
-	width:750px;
+	width:500px;
 }
